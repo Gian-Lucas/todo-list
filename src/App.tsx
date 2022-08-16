@@ -3,7 +3,7 @@ import styles from "./App.module.scss";
 
 import clipboard from "./assets/clipboard.svg";
 import { PlusCircle } from "phosphor-react";
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { Header } from "./components/Header/Header";
 import { Task } from "./components/Task/Task";
 import { HeaderTasksInfo } from "./components/HeaderTasksInfo/HeaderTasksInfo";
@@ -16,7 +16,22 @@ interface Task {
 
 export function App() {
   const [newTaskText, setNewTaskText] = useState("");
-  const [tasks, setTasks] = useState<Task[]>([]);
+  const [tasks, setTasks] = useState<Task[]>(() => {
+    
+    const tasksStored = localStorage.getItem("@todo-list:tasks-1.0.0")
+
+    if (tasksStored) {
+      return JSON.parse(tasksStored)
+    }
+
+    return []
+  });
+
+  useEffect(() => {
+    const tasksToStore = JSON.stringify(tasks)
+
+    localStorage.setItem("@todo-list:tasks-1.0.0", tasksToStore)
+  }, [tasks])
 
   function handleAddNewTask(e: FormEvent) {
     e.preventDefault();
