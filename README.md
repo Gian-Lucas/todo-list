@@ -17,7 +17,12 @@
 :small_blue_diamond: [Colaboradores](#handshake-colaboradores)
 
 ## :memo: Descrição do projeto
-Essa é uma aplicação que visa auxiliar na organização de tarefas diárias, e que não podem ser esquecidas, de forma simples e fácil de entender. 
+Essa é uma aplicação que visa auxiliar na organização de tarefas diárias, e que não podem ser esquecidas, de forma simples e fácil de entender. Com esse projeto, foram praticados diversos conceitos do ReactJS, como:
+* Estados (State)
+* Imutabilidade de estado
+* Componentização
+* Propriedades
+* Listas e chaves no ReactJS
 
 ## :books: Funcionalidades
 :heavy_check_mark: **Adicionar uma nova tarefa**
