@@ -1,53 +1,74 @@
-<h1>Todo List</h1> 
+# ToDo List
 
 > Status do Projeto: Concluido :heavy_check_mark:
 
 ### Tópicos 
 
-:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+:small_blue_diamond: [Descrição do projeto](#memo-descrição-do-projeto)
 
-:small_blue_diamond: [Funcionalidades](#funcionalidades)
+:small_blue_diamond: [Funcionalidades](#books-funcionalidades)
 
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+:small_blue_diamond: [Tecnologias utilizadas](#wrench-tecnologias-utilizadas)
 
-:small_blue_diamond: [Tecnologias](#tecnologias)
+:small_blue_diamond: [Imagens da aplicação](#camera-imagens-da-aplicação)
 
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
+:small_blue_diamond: [Rodando o projeto](#rocket-rodando-o-projeto)
 
-:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+:small_blue_diamond: [Colaboradores](handshake-colaboradores)
 
+## :memo: Descrição do projeto
+Essa é uma aplicação que visa auxiliar na organização de tarefas diárias, e que não podem ser esquecidas, de forma simples e fácil de entender. 
 
-## Descrição do projeto 
+## :books: Funcionalidades
+:heavy_check_mark: **Adicionar uma nova tarefa**
 
-<p align="justify">
-  Essa aplicação é uma lista de tarefas, para tornar simples a organização de atividades da rotina que não podem ser esquecidas. 
-</p>
+:heavy_check_mark: **Marcar e desmarcar uma tarefa como concluída**
 
+:heavy_check_mark: **Remover uma tarefa da listagem**
 
-## Funcionalidades
+:heavy_check_mark: **Mostrar o progresso de conclusão das tarefas**
 
-:heavy_check_mark: Adicionar uma nova tarefa
+## :wrench: Tecnologias utilizadas
+<a href="https://reactjs.org" target="_blank">
+  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+</a>
+<a href="https://www.typescriptlang.org" target="_blank">
+  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+</a>
+           
+## :camera: Imagens da aplicação
+> Deploy da aplicação em <https://giantodo.vercel.app>
 
-:heavy_check_mark: Marcar e desmarcar uma tarefa como concluída
+![Sem nenhuma tarefa adicionada](/images/lista-vazia.png)
+![Com algumas tarefas adicionadas](/images/lista-com-itens.png)
 
-:heavy_check_mark: Remover uma tarefa da listagem
+## :rocket: Rodando o projeto
+:warning: Para rodar o projeto é necessário ter o [NodeJS](https://nodejs.org/en) instalado na sua máquina.
 
-:heavy_check_mark: Mostrar o progresso de conclusão das tarefas
+*1.* Clone o repositório, executando o seguinte comando no terminal:
+```
+git clone https://github.com/Gian-Lucas/todo-list.git
+```
 
+*2.* Navegue até o diretório/pasta do projeto e execute os seguintes comandos:
+```
+npm install
+```
+```
+npm run dev
+```
+*3.* Abra seu navegador e acesse a url que foi exposta ao executar o comando `npm run dev`. Muito provavelmente a aplicação estará rodando em `http://localhost:3000`
 
-## Deploy da Aplicação :dash:
-
-> Link do deploy da aplicação. https://giantodo.vercel.app/
-
-
-## Tecnologias
-
-* ![ReactJS](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg)
-* [![React][React.js]][]
-
-
-## Licença 
-
-The [MIT License]() (MIT)
-
-Copyright :copyright: 2022 - Todo List
+## :handshake: Colaboradores
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/gian-lucas">
+        <img src="https://avatars.githubusercontent.com/u/67169105?v=4" width="100px;" alt="Foto de Gian Lucas no GitHub"/><br>
+        <sub>
+          <b>gian-lucas</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
