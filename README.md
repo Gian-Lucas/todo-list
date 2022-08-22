@@ -14,7 +14,7 @@
 
 :small_blue_diamond: [Rodando o projeto](#rocket-rodando-o-projeto)
 
-:small_blue_diamond: [Colaboradores](handshake-colaboradores)
+:small_blue_diamond: [Colaboradores](#handshake-colaboradores)
 
 ## :memo: Descrição do projeto
 Essa é uma aplicação que visa auxiliar na organização de tarefas diárias, e que não podem ser esquecidas, de forma simples e fácil de entender. 
